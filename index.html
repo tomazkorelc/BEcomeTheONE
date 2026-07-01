@@ -172,8 +172,9 @@
   .billion .badv{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(26px,5.5vw,70px);letter-spacing:-.02em;color:var(--cyan-bright);margin-top:12px}
 
   /* WORLD — the very last screen */
-  .world{background:#000;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px;gap:clamp(30px,6vw,60px)}
-  .world .eagle{width:clamp(48px,8.4vw,112px);height:auto;filter:drop-shadow(0 0 30px rgba(70,214,248,.18))}
+  .world{background:#000;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px;gap:clamp(70px,16vh,180px)}
+  .world .eagle{width:clamp(96px,17vw,224px);height:auto;filter:drop-shadow(0 0 44px rgba(70,214,248,.22));animation:soar 7s ease-in-out infinite}
+  @keyframes soar{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-16px) rotate(-1.5deg)}}
   .world p{font-family:'Poppins',sans-serif;font-weight:700;font-size:clamp(30px,6vw,72px);line-height:1.1;letter-spacing:-.035em;max-width:18ch}
   .world p .one{color:var(--cyan-bright)}
   .world p .soft{color:#8b949e;font-weight:600}
@@ -337,7 +338,7 @@
 </div>
 
 <section class="billion">
-  <div class="bclaim" data-i18n="bil_l1">BE, Think and Act beyond</div>
+  <div class="bclaim" data-i18n="bil_l1">Be, Think and Act beyond</div>
   <div class="num">1.000.000.000</div>
   <div class="badv" data-i18n="bil_l3">AdVenture</div>
 </section>

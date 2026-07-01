@@ -44,7 +44,7 @@ en:{
  u5:'You thought this page was over. That assumption is exactly why most never become The <span class="cy">ONE</span>.',
  bil_pre:'Become a',bil_post:'company.',world_a:'BE the ONE',world_b:' — impact the world for the better.',
  world_c:'.',
- bil_l1:'BE, Think and Act beyond',bil_l3:'AdVenture',
+ bil_l1:'Be, Think and Act beyond',bil_l3:'AdVenture',
 },
 
 sl:{
